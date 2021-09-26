@@ -1,0 +1,41 @@
+------------ Options -------------
+abnormal_class: car
+batchsize: 8
+beta1: 0.5
+dataroot: 
+dataset: casting
+device: gpu
+display: False
+display_id: 0
+display_port: 8097
+display_server: http://localhost
+droplast: True
+extralayers: 1
+gpu_ids: [0, 1, 2, 3]
+isTrain: True
+isize: 128
+iter: 0
+load_weights: False
+lr: 1e-05
+manualseed: -1
+metric: RGB
+model: ganomaly
+name: ganomaly/casting
+nc: 3
+ndf: 196
+ngf: 196
+ngpu: 4
+niter: 1700
+nz: 600
+outf: ./output
+phase: train
+print_freq: 100
+proportion: 0.5
+resume: 
+save_image_freq: 30
+save_test_images: True
+w_adv: 1
+w_con: 120
+w_enc: 1.5
+workers: 10
+-------------- End ----------------

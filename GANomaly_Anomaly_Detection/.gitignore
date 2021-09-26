@@ -1,0 +1,7 @@
+data/*
+RAW/*
+output/*
+*.pth
+*.zip
+*.csv
+*.bmp
